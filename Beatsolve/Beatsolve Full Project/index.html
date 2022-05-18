@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="beatsolve.css">
+    <title>
+        Beatsolve
+    </title>
+
+</head>
+
+<body onload="loadquestionspianopart()">
+    <div class="pianopart">
+        <a class="buttonactivepage">Piano Part</a>
+        <br>
+        <br>
+        <a class="button">Drum Part</a>
+        <br>
+        <br>
+        <a class="button">Bass Part</a>
+        <br>
+        <br>
+        <a class="button">Final</a>
+
+    </div>
+
+    <div class="heading" id="heading">
+
+        <h1>BEATSOLVE</h1>
+
+    </div>
+
+
+
+    <div class="picturequiz">
+    </div>
+    <div class="picturequizcontent">
+        <div class="form1">
+            <br>
+            <br>
+            <br>
+            <p id="picture_question" class="question"></p>
+            <br>
+            <br>
+            <br>
+
+            <form>
+                <input type="radio" name="option" id="answer1">
+                <p><img class="optimage" onclick="changeradio1()" id="answer1pic" src=""></p>
+                <input type="radio" name="option" id="answer2">
+                <p><img class="optimage" onclick="changeradio2()" id="answer2pic" src=""></p>
+                <input type="radio" name="option" id="answer3">
+                <p><img class="optimage" onclick="changeradio3()" id="answer3pic" src=""></p>
+                <input type="radio" name="option" id="answer4">
+                <p><img class="optimage" onclick="changeradio4()" id="answer4pic" src=""></p>
+            </form>
+        </div>
+    </div>
+
+    <div class="next_button">
+
+        <button class="button2" onclick="validatepianopart(questionnumber)">NEXT</button>
+
+    </div>
+
+</body>
+
+<script type="text/javascript" src="beatsolve.js"></script>
+
+</html>

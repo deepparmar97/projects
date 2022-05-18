@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="beatsolve.css">
+    <title> Beatsolve </title>
+</head>
+
+<body class="final">
+    <div class="unlockedaudio">
+        <audio id="audio1" controls loop autoplay>
+            <source id="audio1" src="Audio/nawaftrack/keys1.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+        <audio id="audio2" controls loop autoplay>
+            <source id="audio2" src="Audio/nawaftrack/keys2.mp3" type="audio/mpeg"> </audio>
+        <audio id="audio3" controls loop autoplay>
+            <source id="audio3" src="Audio/nawaftrack/drumkit.mp3" type="audio/mpeg"> </audio>
+        <audio id="audio4" controls loop autoplay>
+            <source id="audio4" src="Audio/nawaftrack/bass.mp3" type="audio/mpeg"> </audio>
+        <audio id="audio5" controls loop>
+            <source id="audio4" src="Audio/divyadeeptrack/master.mp3" type="audio/mpeg"> </audio>
+    </div>
+    <div class="finalpart"> <a class="buttonactivepage">Piano Part</a>
+        <br>
+        <br> <a class="buttonactivepage2">Drum Part</a>
+        <br>
+        <br> <a class="buttonactivepage3">Bass Part</a>
+        <br>
+        <br> <a class="buttonactivepage4">Final</a> </div>
+    <div class="heading" id="heading">
+        <h1>BEATSOLVE</h1> </div>
+    <div class="picturequiz"> </div>
+    <div class="picturequizcontent"> </div>
+    <div class="final_buttons"> <a class="button3" id="downloadlink" href="Audio/nawaftrack/master.mp3" value="music" download>Download Audio</a>
+        <button class="button4" onclick="switchaudio()">Play Another Audio</button>
+        <button class="button5" onclick="restart()">Restart</button>
+    </div>
+    <div> <img class="imgfunny" id="imgfunnny" src="Images/spdance.gif"> </div>
+</body>
+<script type="text/javascript" src="beatsolve_final.js" defer></script>
+
+</html>

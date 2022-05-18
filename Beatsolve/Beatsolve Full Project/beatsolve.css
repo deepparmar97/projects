@@ -1,0 +1,524 @@
+@media screen and (max-width: 1020px) {
+    #container,
+    #header,
+    #content,
+    #footer {
+        float: none;
+        width: auto;
+    }
+    #subtitle,
+    #share,
+    #slider,
+    #sidebar {
+        display: none;
+    }
+    p {
+        font-size: 2em;
+    }
+}
+
+.unlockedaudio {
+    position: absolute;
+    left: 27px;
+    top: 25px;
+}
+
+.optimage {
+    width: 180px;
+    height: 120px;
+    border: 1px groove darkgray;
+    border-radius: 12px;
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 3px 3px black;
+}
+
+.optimage:hover,
+.ghost-button:active {
+    background-color: transparent;
+    color: ghostwhite;
+    box-shadow: 5px 5px 5px black;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 11px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid white;
+}
+
+.form1 {
+    position: relative;
+    left: 27px;
+    top: 25px;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: red;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+audio {
+    visibility: hidden;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(LeagueSpartan-Bold.otf);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    background-image: url(Images/17407848_1742366896075351_479696565_o.jpg);
+}
+
+.drum {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    background color: lightsalmon;
+}
+
+.bass {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    background color: lightsalmon;
+}
+
+.final {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    background color: lightsalmon;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.button {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: myFirstFont;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #E7C27A;
+    box-shadow: 3px 3px #E7B350;
+    transition: box-shadow 0.1s ease-in-out;
+}
+
+.button:hover,
+.ghost-button:active {
+    background-color: transparent;
+    color: #D2B48C;
+    box-shadow: 5px 10px 3px black;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 8px;
+    color: ghostwhite;
+    text-align: center;
+    outline: none;
+    font-family: avenir;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    text-shadow: 2px 6px 5px black;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 3px 3px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.button1:hover,
+.ghost-button:active {
+    background-color: transparent;
+    color: ghostwhite;
+    box-shadow: 5px 5px 5px black;
+}
+
+.button2 {
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: myFirstFont;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 3px 3px black;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.button2:hover,
+.ghost-button:active {
+    background-color: transparent;
+    box-shadow: 5px 5px 5px black;
+}
+
+.buttonactivepage {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: myFirstFont;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #E7C27A;
+    box-shadow: 3px 3px gold;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.buttonactivepage:hover,
+.ghost-button:active {
+    background-color: transparent;
+    color: ghostwhite;
+    box-shadow: 5px 5px 5px black;
+}
+
+.buttonactivepage2 {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: myFirstFont;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #E7C27A;
+    box-shadow: 3px 3px red;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.buttonactivepage2:hover,
+.ghost-button:active {
+    background-color: transparent;
+    color: ghostwhite;
+    box-shadow: 5px 5px 5px black;
+}
+
+.buttonactivepage3 {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: myFirstFont;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #E7C27A;
+    box-shadow: 3px 3px white;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.buttonactivepage3:hover,
+.ghost-button:active {
+    background-color: transparent;
+    color: ghostwhite;
+    box-shadow: 5px 5px 5px black;
+}
+
+.buttonactivepage4 {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: myFirstFont;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #E7C27A;
+    box-shadow: 3px 3px lime;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.buttonactivepage4:hover,
+.ghost-button:active {
+    background-color: transparent;
+    color: ghostwhite;
+    box-shadow: 5px 5px 5px black;
+}
+
+.pianopart {
+    position: relative;
+    top: 80px;
+    left: 10px;
+    width: 50%;
+}
+
+.drumpart {
+    position: relative;
+    top: 80px;
+    left: 10px;
+    width: 50%;
+}
+
+.basspart {
+    position: relative;
+    top: 80px;
+    left: 10px;
+    width: 50%;
+}
+
+.finalpart {
+    position: relative;
+    top: 80px;
+    left: 10px;
+    width: 50%;
+}
+
+.heading {
+    font-family: myFirstFont;
+    position: absolute;
+    top: 0px;
+    left: 540px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px -10px 3px #FF4444;
+    transition: text-shadow 0.4s linear;
+    border: black 50px;
+}
+
+.heading:hover,
+.heading:active {
+    text-shadow: -20px -20px 50px #C76363;
+}
+
+.picturequiz {
+    position: absolute;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+    top: 120px;
+    left: 240px;
+    width: 900px;
+    height: 400px;
+    background-size: contain;
+    border-radius: 12px;
+    box-shadow: 2px 3px 2px orange;
+    background-color: #E7C27A;
+    border: 1px groove red;
+    font-family: myFirstFont;
+    font-variant: small-caps;
+    font-size: 15px;
+    font color: black;
+    text-align: left;
+    padding: 30px;
+}
+
+.picturequizcontent {
+    position: absolute;
+    top: 120px;
+    left: 240px;
+    width: 900px;
+    height: 400px;
+    background-size: contain;
+    font-size: 20px;
+    font-family: myFirstFont;
+    font-kerning: normal;
+    text-align: center;
+}
+
+span,
+p {
+    display: inline;
+}
+
+.next_button {
+    position: absolute;
+    top: 500px;
+    left: 640px;
+    width: 120px;
+    height: 50px;
+    color: bisqu;
+}
+
+.finalwindow {
+    position: absolute;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+    top: 120px;
+    left: 260px;
+    width: 900px;
+    height: 400px;
+    background-size: contain;
+    border-radius: 12px;
+    box-shadow: 2px 3px 2px orange;
+    background-color: #E7C27A;
+    border: 1px groove red;
+    font-family: myFirstFont;
+    font-variant: small-caps;
+    font-size: 15px;
+    font color: black;
+    text-align: left;
+    padding: 30px;
+}
+
+.finalwindowcontent {
+    position: absolute;
+    top: 120px;
+    left: 260px;
+    width: 900px;
+    height: 400px;
+    background-size: contain;
+    font-size: 20px;
+    font-family: myFirstFont;
+    font-kerning: normal;
+    text-align: center;
+}
+
+.button3 {
+    display: inline-block;
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: myFirstFont;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    width: 100%;
+    height: 75%;
+    border-radius: 12px;
+    box-shadow: 3px 3px black;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.button3:hover,
+.ghost-button:active {
+    background-color: red;
+    box-shadow: 5px 5px 5px black;
+}
+
+.button4 {
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: myFirstFont;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 3px 3px black;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.button4:hover,
+.ghost-button:active {
+    background-color: blue;
+    box-shadow: 5px 5px 5px black;
+}
+
+.button5 {
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    outline: none;
+    font-family: myFirstFont;
+    font-size: 30px;
+    border: 1px groove darkgray;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 3px 3px black;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.button5:hover,
+.ghost-button:active {
+    background-color: lime;
+    box-shadow: 5px 5px 5px black;
+}
+
+.final_buttons {
+    position: absolute;
+    top: 220px;
+    left: 270px;
+    width: 300px;
+    height: 100px;
+    color: bisqu;
+}
+
+.imgfunny {
+    position: absolute;
+    top: 220px;
+    left: 640px;
+    width: 500px;
+    height: 300px;
+    border: 1px groove darkgray;
+    border-radius: 12px;
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 3px 3px black;
+}

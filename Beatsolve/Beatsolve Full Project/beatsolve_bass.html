@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="beatsolve.css">
+    <title>
+        Beatsolve
+    </title>
+
+</head>
+
+<body class="bass">
+    <div class="unlockedaudio">
+        <audio controls loop autoplay>
+            <source src="Audio/nawaftrack/keys1.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+        </audio>
+        <audio controls loop autoplay>
+            <source src="Audio/nawaftrack/keys2.mp3" type="audio/mpeg">
+        </audio>
+        <audio controls loop autoplay>
+            <source src="Audio/nawaftrack/drumkit.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="basspart">
+        <a class="buttonactivepage">Piano Part</a>
+        <br>
+        <br>
+        <a class="buttonactivepage2">Drum Part</a>
+        <br>
+        <br>
+        <a class="buttonactivepage3">Bass Part</a>
+        <br>
+        <br>
+        <a class="button">Final</a>
+
+    </div>
+
+    <div class="heading" id="heading">
+
+        <h1>BEATSOLVE</h1>
+
+    </div>
+
+
+    <div class="picturequiz">
+        <p id="test_status"></p>
+    </div>
+    <div class="picturequizcontent" id="test">
+
+    </div>
+
+    <div class="next_button">
+
+        <button class="button2" onclick="checkAnswer()">NEXT</button>
+
+    </div>
+
+</body>
+
+<script type="text/javascript" src="beatsolve_bass.js" defer></script>
+
+</html>
